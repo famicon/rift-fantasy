@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "riftfantasymod",
+  "version": "${version}",
+  "name": "The Rift: Fantasy Overhaul",
+  "description": "Skyrim-style high fantasy with 5 questlines, bosses, custom dungeons, and The Rift dimension.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fantasy.rift.RiftFantasyMod"
+    ],
+    "client": [
+      "net.fantasy.rift.RiftClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
